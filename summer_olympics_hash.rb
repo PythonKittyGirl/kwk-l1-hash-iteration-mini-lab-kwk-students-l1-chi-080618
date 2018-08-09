@@ -14,8 +14,8 @@ def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
   
   updated_hash = create_olympics_hash
-updated_hash[:Atlana] = "1996" 
-return updated_hash
+  updated_hash[:Atlana] = "1996" 
+  return updated_hash
 end
 
 def iterate_through_hash
