@@ -28,13 +28,12 @@ def iterate_through_hash
 end
 end
 
-
 def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
   
   iterate_through_keys = updated_hash
-  iterate_through_keys.each do |place|
-    return iterate_through_keys.upcase
+  iterate_through_keys.upcase.each do |place|
+    return iterate_through_keys
   end
 end
