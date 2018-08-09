@@ -4,7 +4,7 @@ def create_olympics_hash
   olympics_hash = {
     :Sydney => "2000",
     :Athens => "2008",
-    :Bejing => "2008",
+    :Beijing => "2008",
     :London => "2012"
   }
 end
