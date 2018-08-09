@@ -35,5 +35,5 @@ def iterate_through_keys
   new_thing = iterate
   new_thing.upcase do |place, year|
     return new_thing
-end
+
 end
