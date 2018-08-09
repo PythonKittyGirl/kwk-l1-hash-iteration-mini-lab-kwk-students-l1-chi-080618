@@ -1,7 +1,7 @@
 
 def create_olympics_hash
   # Implement this method so that it returns a hash with the data provided on README.md
-  olympic_hash = {
+  olympics_hash = {
     :Sydney => "2000"
     :Athens => "2008"
     :Bejing => "2008"
