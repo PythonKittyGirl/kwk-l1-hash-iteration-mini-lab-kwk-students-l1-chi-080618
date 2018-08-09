@@ -34,7 +34,7 @@ def iterate_through_keys
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
   
   iterate_through_keys = updated_hash
-  iterate_through_keys.each.upcase do |place|
-    return updated_hash
+  iterate_through_keys.upcase.each do |place|
+    return iterate_through_keys
   end
 end
