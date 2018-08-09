@@ -35,5 +35,5 @@ def iterate_through_keys
   iterate_through_keys = iterate
   iterate_through_keys.upcase do |place|
     return iterate_through_keys
-  
+  end
 end
