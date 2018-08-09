@@ -35,6 +35,6 @@ def iterate_through_keys
   
   iterate_through_keys = updated_hash
   iterate_through_keys.each.upcase do |place|
-    return iterate_through_keys
+    return updated_hash
   end
 end
